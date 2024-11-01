@@ -7,7 +7,7 @@ The "Book Connect" project provides an opportunity for students to refine a full
 ![alt text](image.png)
 
 #### Goals
-
+s
 - **Refactor Existing Code**: Analyse and refactor the given JavaScript and HTML code to improve its structure using objects and functions.
 - **Implement Abstraction**: Use abstraction to hide the complex reality while exposing only the necessary parts. This involves creating more generic functions that can perform tasks in a more flexible way.
 - **Documentation**: Write clear comments and documentation for the new code structure to explain the purpose and functionality of code blocks, functions, and objects.
@@ -37,3 +37,16 @@ After completing the tasks, prepare a brief presentation for your coaching group
 Submit the refactored version of the "Book Connect" application, including all HTML, CSS, and JavaScript files. Ensure that your code is well-documented and adheres to the specified Styleguides. Include a written report covering the discussion and reflection points outlined above.
 
 Make sure to submit your project to the LMS on the DJS03 Project Tab.
+
+
+
+# WRITTEN REPORT
+
+* Created a renderBooks() function to simplify the rendering process of the books instead of fetching and inserting elements everytime.
+   - Can be called for genres,authors or any other element if needed
+* Created a toggleModal() functon to be used everytime a modal needs to be displayed.
+   - Works on any modal as it is taken as a parameter
+* Added neccesary JS.Doc to explain all added function and its use
+* Added neccesary comments to existing function and newly created/modified ones
+   - Existing functions have comments to make it more organised and easier for me to split code up in sections for better analysis
+   - Comments on new functions or modified code explain what and why it was added or modified
